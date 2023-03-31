@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aguardente Malacrida</title>
+  <link rel="stylesheet" href="css/index.css">
+  <link rel="icon" type="image/png" href="../responsive/imagens/incon-logo.png">
+</head>
+<body>
+
+  <div id="loader-wrapper">
+    <span class="loader"><span class="loader-inner"></span></span>
+  </div>
+
+<header class="cabeça">
+    <nav>
+      <div class="logo">
+        <a href="index.html">
+        <img src="../responsive/imagens/logo-certo.png" alt="Aguardente Malacrida"
+        class="logo-img transition-soft">
+        </a>
+          </div>
+      <div class="mobile-menu">
+        <div class="line1"></div>
+        <div class="line2"></div>
+        <div class="line3"></div>
+      </div>
+      
+      <ul class="nav-list">
+        <li><a href="#">Início</a></li>
+        <li><a href="#">Sobre</a></li>
+        <li><a href="#">Contato</a></li>
+      </ul>
+    </nav>
+</header>
+<main>
+
+     <section class="slideshow">
+      
+      <ul>
+        <li><img src="../responsive/imagens/drink1.jpg" alt="Imagem 1"></li>
+        <li><img src="../responsive/imagens/drink2.jpg" alt="Imagem 2"></li>
+        <li><img src="../responsive/imagens/drink3.jpg" alt="Imagem 3"></li>
+      </ul>
+      
+    </section>]
+    
+    <script>
+
+let slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  let i;
+  let slides = document.getElementsByClassName("slideshow")[0].getElementsByTagName("li");
+
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+
+  slideIndex++;
+  if (slideIndex > slides.length) {
+    slideIndex = 1;
+  }
+
+  slides[slideIndex - 1].style.display = "block";
+  setTimeout(showSlides, 5000); // Altere o tempo de exibição das imagens (em milissegundos) aqui
+}
+
+ </script>
+<section class="corpo">
+
+    <section class="title">
+      <h2>O que é uma</h2>
+      <h1>AGUARDENTE</h1>
+      <p>Aguardente é uma bebida alcoólica destilada produzida a partir da fermentação de frutas, cereais ou tubérculos. É uma bebida forte, com teor alcoólico que varia entre 30% e 50% ou mais, dependendo do método de destilação e do país de origem.
+      <p>Existem muitos tipos diferentes de aguardente, cada um com suas próprias características e sabores distintos. Alguns exemplos incluem a cachaça, que é feita a partir da cana-de-açúcar no Brasil, o whisky, que é feito a partir de grãos maltados na Escócia e outros países, e a tequila, que é feita a partir do agave no México.        
+      <button>Saiba-mais</button>
+    </section>
+
+
+    <section class="drinks">
+      <h1>Conheça alguns drinks:</h1>
+      <p>Usando Aguardente de Batata-Doce</p>
+    </section>
+
+
+  <div class="container">
+    <div class="square">
+      <img src="../responsive/imagens/drink/bebida-de-limonada-fria-refrescante-caseira-de-verao-com-fatias-de-limao-hortela-e-gelo.jpg" alt="Imagem">
+      <div class="overlay">
+        <h2>Título 1</h2>
+        <p>Texto de sobreposição 1</p>
+
+        <a href="../responsive/html/bebida1.html"><button id="receita">Saiba-mais</button></a>
+      </div>
+    </div>
+    <div class="square">
+      <img src="../responsive/imagens/drink/mojito-tradicional-com-gelo-e-hortela-em-cima-da-mesa.jpg" alt="Imagem">
+      <div class="overlay">
+        <h2>Título 2</h2>
+        <p>Texto de sobreposição 2</p>
+      </div>
+    </div>
+    <div class="square">
+      <img src="../responsive/imagens/drink/cha-gelado-com-hortela.jpg" alt="Imagem">
+      <div class="overlay">
+        <h2>Título 3</h2>
+        <p>Texto de sobreposição 3</p>
+      </div>
+    </div>
+    <div class="square">
+      <img src="../responsive/imagens/drink/negroni.jpeg" alt="Imagem">
+      <div class="overlay">
+        <h2>Título 4</h2>
+        <p>Texto de sobreposição 4</p>
+      </div>
+    </div>
+    <div class="square">
+      <img src="../responsive/imagens/drink/vista-frontal-limonada-fresca-azul-com-gelo-no-fundo-azul-agua-de-frutas-coquetel-frio-bebida-cor-suco.jpg" alt="Imagem">
+      <div class="overlay">
+        <h2>Título 5</h2>
+        <p>Texto de sobreposição 5</p>
+      </div>
+    </div>
+    <div class="square">
+      <img src="../responsive/imagens/drink/DALL·E 2023-03-08 11.50.12 - crie uma foto de alta qualidade de uma drink.png" alt="Imagem">
+      <div class="overlay">
+        <h2>Título 6</h2>
+        <p>Texto de sobreposição 6</p>
+      </div>
+    </div>
+
+    <div class="square">
+      <img src="../responsive/imagens/drink/DALL·E 2023-03-08 11.49.54 - crie uma foto de alta qualidade de uma drink no tamanho de 1980 e 1080 pixels.png" alt="Imagem">
+      <div class="overlay">
+        <h2>Título 7</h2>
+        <p>Texto de sobreposição 7</p>
+      </div>
+    </div>
+  
+      <div class="square">
+        <img src="../responsive/imagens/drink/DALL·E 2023-03-08 11.49.49 - crie uma foto de alta qualidade de uma drink no tamanho de 1980 e 1080 pixels.png" alt="Imagem">
+        <div class="overlay">
+          <h2>Título 8</h2>
+          <p>Texto de sobreposição 8</p>
+        </div>
+      </div>
+
+      <div class="square">
+        <img src="../responsive/imagens/drink/DALL·E 2023-03-08 11.49.37 - uma foto de alta resolução de um drink vermelho em uma taça bonita com morangos .png" alt="Imagem">
+        <div class="overlay">
+          <h2>Título 9</h2>
+          <p>Texto de sobreposição 9</p>
+        </div>
+      </div>
+</section>
+
+<section class="lei18anos">
+  <img src="../responsive/imagens/18anos_grande.jpg">
+
+</section>
+  </main>
+
+
+
+
+  <footer>
+    <p>&copy; 2023 Minha Empresa</p>
+  </footer>
+
+  <script src="../responsive/js/index.js"></script>
+</body>
+</html>
