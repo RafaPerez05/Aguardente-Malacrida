@@ -9,6 +9,18 @@
     font-weight: normal;
     font-style: normal;
   }
+  @font-face{
+    font-family:'Montserrat-Bold';
+    src: url('../font/Montserrat-Bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face{
+    font-family:'Montserrat-regular';
+    src: url('../font/Montserrat-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
   
   @font-face{
     font-family:'Festival Budaya XXXI';
@@ -19,7 +31,7 @@
   body{
     overflow-x: hidden;
     overflow-y: scroll;
-    
+    background-color:white;   
   }
   #loader-wrapper {
     width: 100%;
@@ -112,7 +124,7 @@
     display: flex;
     justify-content: center;
     align-items:center;
-    font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
+    font-family: Montserrat-Regular;
     background: rgba(62, 72, 65, 1);
     width: 100%;
     height: auto;
@@ -239,7 +251,6 @@
     background-size: cover;
     background-position: center;
     height: 100vh;
-    background-color:bisque;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -283,19 +294,20 @@
     align-items: center;
     justify-content: left;
     width: 30rem;
-    
+    height: auto;
 }
 @media(max-width: 980px){
   .right{
     width: 100%;
+    height: auto;
   }
   }
 
 .receita{
     width: 100%;
-    height: 35rem;
+    height: auto;
     background-size: cover;
-    font-family:"HorsebackSlab-Bold", sans-serif; 
+    font-family:"Montserrat-Bold", sans-serif; 
     margin: 0;
 
 }
@@ -378,8 +390,9 @@
 
 
   footer {
-    background-color: #333;
+    background-color: rgba(62, 72, 65, 1);    
     color: #fff;
     text-align: center;
     padding: 10px;
+    margin-top: 10rem;
   }
