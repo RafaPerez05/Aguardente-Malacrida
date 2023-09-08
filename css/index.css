@@ -9,6 +9,19 @@
     font-weight: normal;
     font-style: normal;
   }
+  @font-face{
+    font-family:'Montserrat-Bold';
+    src: url('../font/Montserrat-Bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face{
+    font-family:'Montserrat-regular';
+    src: url('../font/Montserrat-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
   
   @font-face{
     font-family:'Festival Budaya XXXI';
@@ -114,7 +127,7 @@
     display: flex;
     justify-content: center;
     align-items:center;
-    font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
+    font-family: Montserrat-Regular;
     background: rgba(62, 72, 65, 1);
     width: 100%;
     height: auto;
@@ -244,7 +257,11 @@
 
   .slideshow:nth-of-type(1){
     background-image: url("../imagens/drink1.jpg");
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
+
 .slideshow:nth-of-type(1) h1{
   color: #48333e;
   font-size: 10rem;
@@ -257,7 +274,7 @@
 .slideshow:nth-of-type(1) h2{
   color: #48333e;
   font-size: 6rem;
-  font-family: HorsebackSlab-Bold;
+  font-family: Montserrat-Bold;
   margin: 0;
 
 }
@@ -332,7 +349,7 @@ section .corpo{
   .title h2{
     font-size:  1rem;
     font-weight: bold;
-    font-family: HorsebackSlab-Bold;
+    font-family: Montserrat-Bold;
     margin-top: 2rem;
   }
   @media (min-width: 999px) {
@@ -356,7 +373,7 @@ section .corpo{
   .title p{
     margin: 0;
     font-size: 1rem;
-    font-family:HorsebackSlab-Bold;
+    font-family: Montserrat-Bold;
     text-align: justify;
     max-width: 1200px;
     
@@ -369,7 +386,7 @@ section .corpo{
 
   
   section button {
-    font-family:HorsebackSlab-bold;
+    font-family: Montserrat-Bold;
     background-color: #fff;
     color: #522A42;
     padding: 10px 20px;
@@ -416,7 +433,7 @@ section .corpo{
 .drinks h1{
   font-size:  2.5rem;
   font-weight: bold;
-  font-family: HorsebackSlab-Bold;
+  font-family: Montserrat-Bold;
   margin-top: 3rem;
 }
 
@@ -429,7 +446,7 @@ section .corpo{
 .drinks p{
   margin: 0;
   font-size: 1rem;
-  font-family:HorsebackSlab-Bold;
+  font-family:Montserrat-Bold;
   
 }
 @media (min-width: 999px) {
@@ -535,7 +552,7 @@ section .corpo{
 }
 
 .square button {
-  font-family:HorsebackSlab-bold;
+  font-family:Montserrat-Bold;
   background-color: #522A42;
   color: #fff;
   padding: 10px 20px;
@@ -597,7 +614,7 @@ section .corpo{
 }
 
   footer {
-    background-color: #333;
+    background-color: rgba(62, 72, 65, 1);    
     color: #fff;
     text-align: center;
     padding: 10px;
